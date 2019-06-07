@@ -2,9 +2,11 @@
 Job portal built using Java,Spring and Hibernate
 
 ##### Decription and Overview
-----------
+------
 Portal using JAVA/J2EE which allowed users to search and post off-campus jobs around university.
 Used Spring framework for modelling the application and Hibernate ORM for object persistence.
+
+The website consists of two role Job seeker and Employer. Job seeker after creating his account/profile can view and apply jobs posted by the employer. The employer can create,update and delete his job openings.
 
 #### Screenshots
 ###### Main page
