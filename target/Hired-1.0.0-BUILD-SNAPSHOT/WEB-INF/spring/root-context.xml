@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="daoFac" class="com.www.Hired.dao.DaoFactory"></bean>
+		<bean id="emValidator" class="com.www.Hired.validator.EmployerValidator"></bean>
+		<bean id="jbsValidator" class="com.www.Hired.validator.SeekerValidator"></bean>
+		<bean id="jobValidator" class="com.www.Hired.validator.JobValidator"></bean>
+</beans>
